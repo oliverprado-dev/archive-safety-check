@@ -1,0 +1,15 @@
+{
+  "archive": "fixtures/link-simbolico.zip",
+  "status": "complete",
+  "entries_declared": 1,
+  "entries_inspected": 1,
+  "findings": [
+    {
+      "entry_index": 1,
+      "entry": "docs/atalho",
+      "rule": "symlink",
+      "reason": "O tipo Unix nos atributos externos indica um link simbólico (0o120777)."
+    }
+  ],
+  "error": null
+}

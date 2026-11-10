@@ -1,0 +1,39 @@
+{
+  "archive": "fixtures/absoluto.zip",
+  "status": "complete",
+  "entries_declared": 4,
+  "entries_inspected": 4,
+  "findings": [
+    {
+      "entry_index": 1,
+      "entry": "/laboratorio/absoluto.txt",
+      "rule": "absolute_path",
+      "reason": "O caminho absoluto pode levar a uma gravação fora do destino."
+    },
+    {
+      "entry_index": 2,
+      "entry": "\\laboratorio\\absoluto.txt",
+      "rule": "absolute_path",
+      "reason": "O caminho absoluto pode levar a uma gravação fora do destino."
+    },
+    {
+      "entry_index": 3,
+      "entry": "C:relativo.txt",
+      "rule": "drive_prefix",
+      "reason": "Começa com um prefixo de unidade, como C:."
+    },
+    {
+      "entry_index": 4,
+      "entry": "D:\\laboratorio\\unidade.txt",
+      "rule": "absolute_path",
+      "reason": "O caminho absoluto pode levar a uma gravação fora do destino."
+    },
+    {
+      "entry_index": 4,
+      "entry": "D:\\laboratorio\\unidade.txt",
+      "rule": "drive_prefix",
+      "reason": "Começa com um prefixo de unidade, como C:."
+    }
+  ],
+  "error": null
+}

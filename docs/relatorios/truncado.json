@@ -1,0 +1,8 @@
+{
+  "archive": "fixtures/truncado.zip",
+  "status": "incomplete",
+  "entries_declared": null,
+  "entries_inspected": 0,
+  "findings": [],
+  "error": "Não foi possível ler o fim do diretório central do ZIP (Unexpected end of file). O arquivo pode estar inválido ou truncado."
+}

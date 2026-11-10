@@ -1,0 +1,21 @@
+{
+  "archive": "fixtures/travessia.zip",
+  "status": "complete",
+  "entries_declared": 2,
+  "entries_inspected": 2,
+  "findings": [
+    {
+      "entry_index": 1,
+      "entry": "../fora-da-pasta.txt",
+      "rule": "path_traversal",
+      "reason": "Contém o componente '..', que pode levar a uma pasta acima do destino."
+    },
+    {
+      "entry_index": 2,
+      "entry": "docs\\..\\nota.txt",
+      "rule": "path_traversal",
+      "reason": "Contém o componente '..', que pode levar a uma pasta acima do destino."
+    }
+  ],
+  "error": null
+}

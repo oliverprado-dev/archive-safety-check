@@ -1,0 +1,16 @@
+[package]
+name = "archive-safety-check"
+version = "0.1.0"
+edition = "2024"
+description = "Inspeção de metadados de arquivos ZIP antes da extração"
+
+[dependencies]
+clap = { version = "4.6", features = ["derive"] }
+libc = "0.2"
+rawzip = "0.5.2"
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+[dev-dependencies]
+flate2 = "1.1"
+tempfile = "3"

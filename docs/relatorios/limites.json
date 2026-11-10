@@ -1,0 +1,33 @@
+{
+  "archive": "fixtures/limites.zip",
+  "status": "complete",
+  "entries_declared": 2,
+  "entries_inspected": 2,
+  "findings": [
+    {
+      "entry_index": 2,
+      "entry": "repeticoes.txt",
+      "rule": "max_entries_exceeded",
+      "reason": "É a primeira entrada além do limite de 1."
+    },
+    {
+      "entry_index": 2,
+      "entry": "repeticoes.txt",
+      "rule": "max_file_bytes_exceeded",
+      "reason": "Declara 2048 bytes descompactados, acima do limite de 1024 bytes."
+    },
+    {
+      "entry_index": 2,
+      "entry": "repeticoes.txt",
+      "rule": "max_total_bytes_exceeded",
+      "reason": "A soma declarada chegou a 2060 bytes descompactados, acima do limite de 1024 bytes."
+    },
+    {
+      "entry_index": 2,
+      "entry": "repeticoes.txt",
+      "rule": "max_ratio_exceeded",
+      "reason": "A taxa declarada de 2048/25 supera o limite de 10:1."
+    }
+  ],
+  "error": null
+}

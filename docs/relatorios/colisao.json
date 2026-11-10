@@ -1,0 +1,27 @@
+{
+  "archive": "fixtures/colisao.zip",
+  "status": "complete",
+  "entries_declared": 4,
+  "entries_inspected": 4,
+  "findings": [
+    {
+      "entry_index": 2,
+      "entry": "docs/./nota.txt",
+      "rule": "name_collision",
+      "reason": "Normaliza para \"docs/nota.txt\", assim como a entrada #1 \"docs/nota.txt\"."
+    },
+    {
+      "entry_index": 3,
+      "entry": "docs\\nota.txt",
+      "rule": "name_collision",
+      "reason": "Normaliza para \"docs/nota.txt\", assim como a entrada #1 \"docs/nota.txt\"."
+    },
+    {
+      "entry_index": 4,
+      "entry": "docs/nota.txt",
+      "rule": "name_collision",
+      "reason": "Normaliza para \"docs/nota.txt\", assim como a entrada #1 \"docs/nota.txt\"."
+    }
+  ],
+  "error": null
+}
